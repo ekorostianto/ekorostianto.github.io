@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $.ajax({
-        url: "https://www.googleapis.com/blogger/v3/blogs/8396391136968611111/posts?key=AIzaSyAiA49m0zyriCWHl5D1ChpwKVaVcpzy_kA"
+        url: "https://www.googleapis.com/blogger/v3/blogs/6228868311191208789/posts?key=AIzaSyDjDZtCIql15EWiK79E4qL6FxUsk-JEIvk"
     }).then(function(data) {
 
         for (i = 0; i < data.items.length; i++) {
